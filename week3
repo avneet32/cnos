@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+int framesize,sent=0,ack,i;
+printf("enter no.of frames");
+scanf("%d",&framsize);
+while(1)
+{
+for(i=0;i<n;i++)
+{
+printf("frame %d has been transimitted",sent);
+sent++;
+if(sent==framesize)
+break;
+}
+printf("please ack recieved");
+scanf("%d",&ack);
+if(ack>=framesize)
+break;
+sent=ack;
+}
+return o;
+}
