@@ -3,10 +3,10 @@ int main()
 {
 int framesize,sent=0,ack,i;
 printf("enter no.of frames");
-scanf("%d",&framsize);
+scanf("%d",&framesize);
 while(1)
 {
-for(i=0;i<n;i++)
+for(i=0;i<framesize;i++)
 {
 printf("frame %d has been transimitted",sent);
 sent++;
@@ -19,5 +19,5 @@ if(ack>=framesize)
 break;
 sent=ack;
 }
-return o;
+return 0;
 }
